@@ -475,6 +475,18 @@ select {
   font-size: 1.02rem;
 }
 
+.court-name-rockwell-north {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 2px 8px;
+  border: 1px solid rgba(0, 109, 119, 0.24);
+  border-radius: 999px;
+  background: rgba(0, 109, 119, 0.1);
+  color: #005b64;
+  font-weight: 950;
+}
+
 .session-court span {
   color: var(--muted);
   font-size: 0.92rem;
@@ -863,6 +875,13 @@ code {
 
   .session-court strong {
     font-size: 0.9rem;
+  }
+
+  .court-name-rockwell-north {
+    max-width: 100%;
+    padding: 1px 6px;
+    border-color: rgba(0, 109, 119, 0.2);
+    background: rgba(0, 109, 119, 0.12);
   }
 
   .session-court span {

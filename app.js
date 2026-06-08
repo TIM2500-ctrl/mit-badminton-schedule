@@ -117,6 +117,10 @@ function getMapUrl(court) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
 }
 
+function getCourtClass(court) {
+  return court === "Rockwell North Court" ? "court-name court-name-rockwell-north" : "court-name";
+}
+
 function getTodayKey() {
   return new Intl.DateTimeFormat("en-CA", {
     timeZone: "America/New_York",
@@ -218,7 +222,7 @@ function renderSchedule() {
       item.innerHTML = `
         <span class="session-time">${session.time}</span>
         <span class="session-court">
-          <strong>${session.court}</strong>
+          <strong class="${getCourtClass(session.court)}">${session.court}</strong>
           <span>${getCourtKindLabel(session.type)}</span>
         </span>
         <span class="badge ${session.type}" title="${getCourtKindLabel(session.type)}">
