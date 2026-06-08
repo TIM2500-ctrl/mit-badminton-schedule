@@ -600,13 +600,14 @@ code {
   .hero,
   main,
   .site-footer {
-    width: min(100% - 28px, 1120px);
+    width: min(100% - 24px, 1120px);
   }
 
   .topbar {
     flex-wrap: wrap;
-    min-height: 62px;
-    padding: 10px 0;
+    min-height: 56px;
+    gap: 8px;
+    padding: 8px 0;
   }
 
   .school-switch {
@@ -633,177 +634,258 @@ code {
     font-size: 0.98rem;
   }
 
+  .brand span:last-child {
+    display: none;
+  }
+
   .brand-mark {
     width: 32px;
     height: 32px;
   }
 
   .hero {
-    padding: 32px 0 24px;
+    display: block;
+    gap: 12px;
+    padding: 12px 0 12px;
+  }
+
+  .hero-copy .eyebrow {
+    display: none;
   }
 
   h1 {
-    margin-bottom: 14px;
-    font-size: clamp(2.35rem, 14vw, 3.6rem);
+    margin-bottom: 8px;
+    font-size: clamp(1.42rem, 8vw, 2rem);
+    line-height: 1.05;
   }
 
   h2 {
-    font-size: 1.35rem;
+    font-size: 1.18rem;
   }
 
   .feedback-card {
     grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 12px;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding: 0;
+    border: 0;
+    background: transparent;
   }
 
   .feedback-link {
     width: 100%;
+    min-height: 38px;
   }
 
   .feedback-card p {
-    font-size: 0.95rem;
-    line-height: 1.55;
+    display: none;
   }
 
   .hero-actions {
-    gap: 8px;
+    display: none;
   }
 
   .button,
   .filter,
   .icon-button,
   select {
-    min-height: 42px;
+    min-height: 36px;
   }
 
   .status-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
+    display: none;
   }
 
   .status-panel {
-    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 34px;
+    padding: 7px 9px;
+    border-color: rgba(255, 255, 255, 0.24);
+    background: rgba(23, 32, 42, 0.28);
+    box-shadow: none;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .status-label {
+    display: none;
   }
 
   .status-panel strong {
-    font-size: 1.24rem;
+    display: inline;
+    margin-top: 0;
+    color: #fff;
+    font-size: 0.9rem;
     line-height: 1.2;
   }
 
   .status-grid dd {
-    font-size: 1.04rem;
+    font-size: 0.86rem;
   }
 
   .notice {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 16px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 8px 10px;
     border-left-width: 4px;
   }
 
+  .notice .eyebrow {
+    display: none;
+  }
+
+  .notice h2 {
+    margin-bottom: 3px;
+    font-size: 1rem;
+  }
+
+  .notice p:not(.eyebrow) {
+    display: none;
+  }
+
   .icon-button {
-    justify-self: start;
+    justify-self: end;
+    width: 36px;
   }
 
   .section-intro {
-    gap: 12px;
+    gap: 8px;
+    margin-top: 16px;
   }
 
   .section-intro p {
-    display: grid;
-    grid-template-columns: 26px minmax(0, 1fr);
-    gap: 8px 7px;
-    align-items: center;
+    display: block;
     font-size: 0.92rem;
+    line-height: 1.35;
   }
 
   .section-intro .badge {
-    margin: 0;
+    margin: 0 4px 0 8px;
   }
 
   .toolbar {
-    top: 6px;
-    gap: 12px;
-    padding: 10px;
+    top: 4px;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 8px;
   }
 
   .filter-group {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
   }
 
   .filter {
-    padding: 0 10px;
+    padding: 0 6px;
+    font-size: 0.76rem;
+  }
+
+  .select-label {
+    display: none;
   }
 
   .schedule-list {
-    gap: 14px;
+    gap: 4px;
+    margin-top: 12px;
   }
 
   .day {
-    gap: 14px;
-    padding: 16px;
+    display: block;
+    padding: 10px 0;
+    background: transparent;
+    border-width: 1px 0 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .day-heading {
+    margin-bottom: 5px;
+  }
+
+  .day-heading time {
+    display: none;
   }
 
   .day-heading h3 {
-    font-size: 1.26rem;
+    margin: 0;
+    font-size: 1.04rem;
   }
 
   .session-list {
-    gap: 9px;
+    gap: 0;
   }
 
   .session {
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 9px 10px;
-    align-items: start;
-    padding: 13px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    min-height: 0;
+    padding: 5px 0;
+    background: transparent;
+    border-width: 0 0 1px;
+    border-radius: 0;
   }
 
   .session-time {
-    grid-column: 1;
-    font-size: 1rem;
-    line-height: 1.25;
+    flex: 0 0 auto;
+    font-size: 0.94rem;
+    line-height: 1.18;
+  }
+
+  .session-time::after {
+    content: ",";
   }
 
   .session .badge {
-    grid-column: 2;
-    grid-row: 1;
+    flex: 0 0 22px;
     margin: 0;
+    width: 22px;
+    height: 22px;
+    font-size: 0.72rem;
   }
 
   .session-court {
-    grid-column: 1 / -1;
+    display: block;
+    flex: 1 1 auto;
+    min-width: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .session-court strong {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .session-court span {
-    font-size: 0.88rem;
+    display: none;
   }
 
   .map-link {
-    grid-column: 1 / -1;
-    justify-self: start;
-    padding-top: 2px;
-    font-size: 0.94rem;
+    display: none;
   }
 
   .empty-state,
   .guide-grid article {
-    padding: 18px;
+    padding: 12px;
   }
 }
 
 @media (max-width: 360px) {
-  .hero-actions,
-  .filter-group,
-  .status-grid {
+  .hero-actions {
     grid-template-columns: 1fr;
+  }
+
+  .filter-group {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   h1 {
