@@ -54,6 +54,14 @@ select {
   color: #fff;
 }
 
+.swim-page .site-header {
+  background:
+    linear-gradient(120deg, rgba(0, 88, 122, 0.94), rgba(0, 132, 145, 0.84)),
+    url("https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1600&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
 .topbar,
 .hero,
 main,
@@ -369,6 +377,14 @@ main {
 
 .badge.dedicated {
   background: var(--green);
+}
+
+.badge.open {
+  background: var(--teal);
+}
+
+.badge.women {
+  background: var(--red);
 }
 
 .toolbar {

@@ -25,5 +25,5 @@ jobs:
       - name: Commit updated schedule
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update badminton schedules
-          file_pattern: schedule.json bu-schedule.json
+          commit_message: Update recreation schedules
+          file_pattern: schedule.json bu-schedule.json swim-schedule.json

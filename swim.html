@@ -3,28 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MIT Open Rec Badminton Schedule</title>
+    <title>MIT Open Rec Swim Schedule</title>
     <meta
       name="description"
-      content="Unofficial MIT open recreation badminton schedule, rebuilt as a static and easy-to-maintain page."
+      content="Unofficial MIT Recreation open rec swim schedule for Z Center and Alumni/Wang pools."
     >
-    <link rel="stylesheet" href="styles.css?v=20260608-rockwell">
+    <link rel="stylesheet" href="styles.css?v=20260613-swim">
   </head>
-  <body>
+  <body class="swim-page">
     <header class="site-header">
       <nav class="topbar" aria-label="Page">
-        <a class="brand" href="#schedule" aria-label="MIT Open Rec Badminton">
-          <span class="brand-mark" aria-hidden="true">B</span>
-          <span>MIT Badminton</span>
+        <a class="brand" href="#schedule" aria-label="MIT Open Rec Swim">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>MIT Swim</span>
         </a>
-        <a class="school-switch" href="swim.html">Swim schedule</a>
+        <a class="school-switch" href="index.html">Badminton schedule</a>
         <div class="nav-actions">
-          <a href="#guide">Court guide</a>
+          <a href="#guide">Pool guide</a>
           <a href="#maintain">Update data</a>
         </div>
         <a
           class="visit-counter"
-          href="https://hits.sh/tim2500-ctrl.github.io/mit-badminton-schedule/"
+          href="https://hits.sh/tim2500-ctrl.github.io/mit-badminton-schedule/swim.html/"
           rel="noreferrer"
           target="_blank"
           aria-label="Visitor counter"
@@ -39,7 +39,7 @@
             <ellipse class="shuttle-cork" cx="24.6" cy="24.6" rx="4.8" ry="3.3" transform="rotate(45 24.6 24.6)" />
           </svg>
           <img
-            src="https://hits.sh/tim2500-ctrl.github.io/mit-badminton-schedule.svg?label=visits&color=ffffff&labelColor=17202a"
+            src="https://hits.sh/tim2500-ctrl.github.io/mit-badminton-schedule/swim.html.svg?label=visits&color=ffffff&labelColor=17202a"
             alt="Visitor count"
           >
         </a>
@@ -47,8 +47,8 @@
 
       <section class="hero" aria-labelledby="page-title">
         <div class="hero-copy">
-          <p class="eyebrow">Unofficial open recreation schedule</p>
-          <h1 id="page-title">MIT Open Rec Badminton</h1>
+          <p class="eyebrow">Unofficial MIT Recreation pool schedule</p>
+          <h1 id="page-title">MIT Open Rec Swim</h1>
           <div class="feedback-card" aria-label="Feedback on Xiaohongshu">
             <a
               class="feedback-link"
@@ -64,10 +64,10 @@
             <a class="button primary" href="#schedule">View schedule</a>
             <a
               class="button secondary"
-              href="https://www.mitrecsports.com/work-out/open-recreation/"
+              href="https://www.mitrecsports.com/pool-schedule-z/"
               rel="noreferrer"
               target="_blank"
-            >MIT Rec</a>
+            >MIT Pool Schedule</a>
           </div>
         </div>
         <aside class="status-panel" aria-label="Schedule status">
@@ -85,11 +85,11 @@
               <dd id="sessionCount">-</dd>
             </div>
             <div>
-              <dt>Dedicated</dt>
+              <dt>Open Rec</dt>
               <dd id="dedicatedCount">-</dd>
             </div>
             <div>
-              <dt>Shared</dt>
+              <dt>Women-only</dt>
               <dd id="sharedCount">-</dd>
             </div>
           </dl>
@@ -100,12 +100,11 @@
     <main>
       <section class="notice" id="facilitiesNotice" aria-labelledby="notice-title">
         <div>
-          <p class="eyebrow">Facilities reminder</p>
-          <h2 id="notice-title">Leave the courts ready for the next group</h2>
+          <p class="eyebrow">Pool reminder</p>
+          <h2 id="notice-title">Check MIT Recreation before heading over</h2>
           <p>
-            Pick up shuttlecocks, take down and store nets properly, and leave
-            the gym as you found it. Open rec offerings may shrink if cleanup
-            remains a problem.
+            Pool schedules can change for lessons, team use, maintenance, and special events.
+            This page summarizes open rec swim windows from MIT Recreation's public schedule.
           </p>
         </div>
         <button class="icon-button" id="dismissNotice" type="button" aria-label="Hide notice">
@@ -116,25 +115,25 @@
       <section class="section-intro" id="schedule" aria-labelledby="schedule-title">
         <div>
           <p class="eyebrow">Schedule</p>
-          <h2 id="schedule-title">Open rec sessions</h2>
+          <h2 id="schedule-title">Open rec swim sessions</h2>
         </div>
         <p>
-          <span class="badge shared">S</span> Shared with other sports
-          <span class="badge dedicated">D</span> Dedicated badminton court
+          <span class="badge open">O</span> Open Rec Swim
+          <span class="badge women">W</span> Women's Only Rec Swim
         </p>
       </section>
 
       <section class="toolbar" aria-label="Schedule filters">
-        <div class="filter-group" role="group" aria-label="Court type">
+        <div class="filter-group" role="group" aria-label="Swim session type">
           <button class="filter active" data-filter="all" type="button">All</button>
-          <button class="filter" data-filter="dedicated" type="button">Dedicated</button>
-          <button class="filter" data-filter="shared" type="button">Shared</button>
+          <button class="filter" data-filter="open" type="button">Open Rec</button>
+          <button class="filter" data-filter="women" type="button">Women-only</button>
           <button class="filter" data-filter="today" type="button">Today</button>
         </div>
         <label class="select-label">
-          <span>Venue</span>
+          <span>Pool</span>
           <select id="venueFilter">
-            <option value="all">All venues</option>
+            <option value="all">All pools</option>
           </select>
         </label>
       </section>
@@ -142,24 +141,24 @@
       <section class="schedule-list" id="scheduleList" aria-live="polite"></section>
 
       <section class="empty-state" id="emptyState" hidden>
-        <h2>No live sessions available</h2>
-        <p>The updater has not produced current Mazevo data yet.</p>
+        <h2>No live swim sessions available</h2>
+        <p>The updater has not produced current MIT Recreation pool data yet.</p>
       </section>
 
-      <section class="guide-grid" id="guide" aria-label="Court guide">
+      <section class="guide-grid" id="guide" aria-label="Pool guide">
         <article>
-          <h2>Rockwell</h2>
-          <p>Usually less slippery than du Pont and often preferred for longer sessions.</p>
+          <h2>Z Center</h2>
+          <p>Includes Long Course and Teaching Pool schedules from MIT Recreation.</p>
         </article>
         <article>
-          <h2>du Pont</h2>
-          <p>Check whether the court is shared before planning around guaranteed badminton space.</p>
+          <h2>Alumni/Wang</h2>
+          <p>Includes Alumni Lap Pool and Alumni Teaching Pool open rec windows.</p>
         </article>
         <article id="maintain">
           <h2>Maintain this page</h2>
           <p>
-            Run <code>npm run update</code> to rebuild <code>schedule.json</code>
-            from MIT Recreation's Mazevo calendar.
+            Run <code>npm run update:swim</code> to rebuild
+            <code>swim-schedule.json</code> from MIT Recreation's pool schedule.
           </p>
         </article>
       </section>
@@ -167,13 +166,31 @@
 
     <footer class="site-footer">
       <p>
-        Rebuilt from the original
-        <a href="https://shen.nz/badminton/" rel="noreferrer" target="_blank">shen.nz badminton page</a>.
+        Source:
+        <a href="https://www.mitrecsports.com/pool-schedule-z/" rel="noreferrer" target="_blank">MIT Recreation Z Center Pool Schedule</a>
+        and
+        <a href="https://www.mitrecsports.com/pool-schedule-aw/" rel="noreferrer" target="_blank">Alumni/Wang Pool Schedule</a>.
         This is unofficial and may be inaccurate.
       </p>
       <p id="generatedAt"></p>
     </footer>
 
-    <script src="app.js?v=20260608-rockwell"></script>
+    <script>
+      window.scheduleConfig = {
+        scheduleUrl: "swim-schedule.json",
+        fallbackScheduleData: [],
+        typeLabels: {
+          open: "Open Rec Swim",
+          women: "Women's Only Rec Swim"
+        },
+        typeBadges: {
+          open: "O",
+          women: "W"
+        },
+        primaryStatType: "open",
+        secondaryStatType: "women"
+      };
+    </script>
+    <script src="app.js?v=20260613-swim"></script>
   </body>
 </html>

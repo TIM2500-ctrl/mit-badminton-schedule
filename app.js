@@ -107,9 +107,21 @@ const notice = document.querySelector("#facilitiesNotice");
 const dismissNotice = document.querySelector("#dismissNotice");
 const noticeDismissedUntilKey = "badmintonNoticeDismissedUntil";
 const oneWeekMs = 7 * 24 * 60 * 60 * 1000;
+const typeLabels = {
+  dedicated: "Dedicated badminton court",
+  shared: "Shared with other sports",
+  ...(appConfig.typeLabels || {}),
+};
+const typeBadges = {
+  dedicated: "D",
+  shared: "S",
+  ...(appConfig.typeBadges || {}),
+};
+const primaryStatType = appConfig.primaryStatType || "dedicated";
+const secondaryStatType = appConfig.secondaryStatType || "shared";
 
 function getCourtKindLabel(type) {
-  return type === "dedicated" ? "Dedicated badminton court" : "Shared with other sports";
+  return typeLabels[type] || type;
 }
 
 function getMapUrl(court) {
@@ -152,8 +164,8 @@ function getFilteredSchedule() {
 
 function renderStats() {
   const sessions = scheduleData.flatMap((day) => day.sessions);
-  const dedicated = sessions.filter((session) => session.type === "dedicated").length;
-  const shared = sessions.filter((session) => session.type === "shared").length;
+  const primary = sessions.filter((session) => session.type === primaryStatType).length;
+  const secondary = sessions.filter((session) => session.type === secondaryStatType).length;
   const lastUpdated = new Date(scheduleMeta.generatedAt);
   const daysOld = Math.floor((Date.now() - lastUpdated.getTime()) / 86400000);
   const newestDate = scheduleData.reduce((latest, day) => (day.date > latest ? day.date : latest), "");
@@ -173,8 +185,8 @@ function renderStats() {
   document.querySelector("#freshnessLabel").textContent = status;
   document.querySelector("#lastUpdated").textContent = lastUpdateFormatter.format(lastUpdated);
   document.querySelector("#sessionCount").textContent = sessions.length;
-  document.querySelector("#dedicatedCount").textContent = dedicated;
-  document.querySelector("#sharedCount").textContent = shared;
+  document.querySelector("#dedicatedCount").textContent = primary;
+  document.querySelector("#sharedCount").textContent = secondary;
   document.querySelector("#generatedAt").textContent =
     `Schedule data generated ${shortDateFormatter.format(new Date(scheduleMeta.generatedAt))} from ${scheduleMeta.source}.`;
 }
@@ -226,7 +238,7 @@ function renderSchedule() {
           <span>${getCourtKindLabel(session.type)}</span>
         </span>
         <span class="badge ${session.type}" title="${getCourtKindLabel(session.type)}">
-          ${session.type === "dedicated" ? "D" : "S"}
+          ${typeBadges[session.type] || session.type.slice(0, 1).toUpperCase()}
         </span>
         <a class="map-link" href="${getMapUrl(session.court)}" target="_blank" rel="noreferrer">Map</a>
       `;

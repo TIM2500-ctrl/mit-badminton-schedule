@@ -7,7 +7,8 @@
     "update": "node scripts/update-schedule.mjs",
     "update:mit": "node scripts/update-schedule.mjs",
     "update:bu": "node scripts/update-bu-schedule.mjs",
-    "update:all": "npm run update:mit && npm run update:bu",
+    "update:swim": "node scripts/update-swim-schedule.mjs",
+    "update:all": "npm run update:mit && npm run update:bu && npm run update:swim",
     "serve": "python3 -m http.server 8000"
   },
   "dependencies": {
