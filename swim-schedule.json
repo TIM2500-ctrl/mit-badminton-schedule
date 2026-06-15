@@ -1,24 +1,7 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-06-14T20:24:15.707Z",
+  "generatedAt": "2026-06-15T16:24:06.081Z",
   "schedule": [
-    {
-      "date": "2026-06-14",
-      "sessions": [
-        {
-          "time": "9 AM - 6 PM",
-          "court": "Z Center Long Course",
-          "type": "open",
-          "sourceText": "Z Center Z Center Long Course Open Rec Swim"
-        },
-        {
-          "time": "11 AM - 6 PM",
-          "court": "Z Center Teaching Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
-        }
-      ]
-    },
     {
       "date": "2026-06-15",
       "sessions": [
@@ -187,6 +170,41 @@
         },
         {
           "time": "9 AM - 6 PM",
+          "court": "Z Center Teaching Pool",
+          "type": "open",
+          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "sessions": [
+        {
+          "time": "6 AM - 7:30 PM",
+          "court": "Alumni Lap Pool",
+          "type": "open",
+          "sourceText": "Alumni/Wang Center Alumni Lap Pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 9 PM",
+          "court": "Alumni Teaching Pool",
+          "type": "open",
+          "sourceText": "Alumni/Wang Center Alumni Teaching Pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 9 PM",
+          "court": "Z Center Long Course",
+          "type": "open",
+          "sourceText": "Z Center Z Center Long Course Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 9:30 AM",
+          "court": "Z Center Teaching Pool",
+          "type": "open",
+          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
+        },
+        {
+          "time": "12 PM - 9 PM",
           "court": "Z Center Teaching Pool",
           "type": "open",
           "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
