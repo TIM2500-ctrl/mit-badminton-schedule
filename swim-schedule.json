@@ -1,24 +1,7 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-06-20T23:53:07.651Z",
+  "generatedAt": "2026-06-21T05:10:29.812Z",
   "schedule": [
-    {
-      "date": "2026-06-20",
-      "sessions": [
-        {
-          "time": "9 AM - 6 PM",
-          "court": "Z Center Long Course",
-          "type": "open",
-          "sourceText": "Z Center Z Center Long Course Open Rec Swim"
-        },
-        {
-          "time": "9 AM - 6 PM",
-          "court": "Z Center Teaching Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
-        }
-      ]
-    },
     {
       "date": "2026-06-21",
       "sessions": [
@@ -255,6 +238,23 @@
           "court": "Z Center Long Course",
           "type": "open",
           "sourceText": "Z Center Z Center Long Course Open Rec Swim"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "sessions": [
+        {
+          "time": "9 AM - 3:30 PM",
+          "court": "Z Center Long Course",
+          "type": "open",
+          "sourceText": "Z Center Z Center Long Course Open Rec Swim"
+        },
+        {
+          "time": "2:30 PM - 6 PM",
+          "court": "Z Center Teaching Pool",
+          "type": "open",
+          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
         }
       ]
     }
