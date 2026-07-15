@@ -1,6 +1,6 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-07-15T19:39:09.186Z",
+  "generatedAt": "2026-07-15T20:44:46.624Z",
   "schedule": [
     {
       "date": "2026-07-15",
@@ -36,7 +36,13 @@
           "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
         },
         {
-          "time": "12 PM - 9 PM",
+          "time": "12 PM - 3:30 PM",
+          "court": "Z Center Teaching Pool",
+          "type": "open",
+          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
+        },
+        {
+          "time": "5:30 PM - 9 PM",
           "court": "Z Center Teaching Pool",
           "type": "open",
           "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
