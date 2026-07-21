@@ -1,24 +1,7 @@
 {
   "source": "https://east.mymazevo.com/calendar?code=RXphMEplcUJrNXhtelI0WitsVXJMK1Q5YmpWaTlJQkprZmYwVVhsOW94cm92aDJGcWNFYklMUzNtZ1h5Qmg2UnMwS2tCU0dBa1ZlMEZ0azNmbHptdUdYbGgvZW90MXExVWR2dXVJN1ovK3BoQm9uR0pndkpuMmU1bnp1bm5CcmM",
-  "generatedAt": "2026-07-21T01:12:36.130Z",
+  "generatedAt": "2026-07-21T04:35:57.428Z",
   "schedule": [
-    {
-      "date": "2026-07-20",
-      "sessions": [
-        {
-          "time": "4:00 PM - 6:30 PM",
-          "court": "du Pont Court 1",
-          "type": "dedicated",
-          "sourceText": "4:00 PM- 6:30 PM du Pont (W31/32) - Du Pont Court 1 Open Rec - Badminton"
-        },
-        {
-          "time": "4:30 PM - 7:00 PM",
-          "court": "Rockwell South Court",
-          "type": "dedicated",
-          "sourceText": "4:30 PM- 7:00 PM Rockwell (W33) - South Court Open Rec - Badminton"
-        }
-      ]
-    },
     {
       "date": "2026-07-21",
       "sessions": [
@@ -111,6 +94,29 @@
           "court": "Rockwell South Court",
           "type": "dedicated",
           "sourceText": "4:30 PM- 7:00 PM Rockwell (W33) - South Court Open Rec - Badminton"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "sessions": [
+        {
+          "time": "4:00 PM - 9:00 PM",
+          "court": "du Pont Court 2",
+          "type": "dedicated",
+          "sourceText": "4:00 PM- 9:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
+        },
+        {
+          "time": "4:30 PM - 6:30 PM",
+          "court": "Rockwell North Court",
+          "type": "dedicated",
+          "sourceText": "4:30 PM- 6:30 PM Rockwell (W33) - North Court Open Rec - Badminton"
+        },
+        {
+          "time": "4:30 PM - 6:30 PM",
+          "court": "Rockwell South Court",
+          "type": "shared",
+          "sourceText": "4:30 PM- 6:30 PM Rockwell (W33) - South Court Open Rec"
         }
       ]
     }
