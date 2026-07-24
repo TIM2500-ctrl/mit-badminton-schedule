@@ -1,6 +1,6 @@
 {
   "source": "https://east.mymazevo.com/calendar?code=RXphMEplcUJrNXhtelI0WitsVXJMK1Q5YmpWaTlJQkprZmYwVVhsOW94cm92aDJGcWNFYklMUzNtZ1h5Qmg2UnMwS2tCU0dBa1ZlMEZ0azNmbHptdUdYbGgvZW90MXExVWR2dXVJN1ovK3BoQm9uR0pndkpuMmU1bnp1bm5CcmM",
-  "generatedAt": "2026-07-24T20:37:53.145Z",
+  "generatedAt": "2026-07-24T21:47:18.966Z",
   "schedule": [
     {
       "date": "2026-07-24",
@@ -63,15 +63,15 @@
         },
         {
           "time": "4:30 PM - 6:30 PM",
-          "court": "Rockwell South Court",
-          "type": "shared",
-          "sourceText": "4:30 PM- 6:30 PM Rockwell (W33) - South Court Open Rec"
-        },
-        {
-          "time": "4:30 PM - 6:30 PM",
           "court": "Rockwell North Court",
           "type": "dedicated",
           "sourceText": "4:30 PM- 6:30 PM Rockwell (W33) - North Court Open Rec - Badminton"
+        },
+        {
+          "time": "4:30 PM - 6:30 PM",
+          "court": "Rockwell South Court",
+          "type": "shared",
+          "sourceText": "4:30 PM- 6:30 PM Rockwell (W33) - South Court Open Rec"
         }
       ]
     },
