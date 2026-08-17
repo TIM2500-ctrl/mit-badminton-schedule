@@ -1,21 +1,21 @@
 {
   "source": "https://east.mymazevo.com/calendar?code=RXphMEplcUJrNXhtelI0WitsVXJMK1Q5YmpWaTlJQkprZmYwVVhsOW94cm92aDJGcWNFYklMUzNtZ1h5Qmg2UnMwS2tCU0dBa1ZlMEZ0azNmbHptdUdYbGgvZW90MXExVWR2dXVJN1ovK3BoQm9uR0pndkpuMmU1bnp1bm5CcmM",
-  "generatedAt": "2026-08-17T09:03:13.347Z",
+  "generatedAt": "2026-08-17T09:52:15.664Z",
   "schedule": [
     {
       "date": "2026-08-17",
       "sessions": [
         {
           "time": "6:00 AM - 9:00 PM",
-          "court": "Rockwell South Court",
-          "type": "dedicated",
-          "sourceText": "6:00 AM- 9:00 PM Rockwell (W33) - South Court Open Rec - Badminton"
-        },
-        {
-          "time": "6:00 AM - 9:00 PM",
           "court": "du Pont Court 2",
           "type": "dedicated",
           "sourceText": "6:00 AM- 9:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
+        },
+        {
+          "time": "6:00 AM - 9:00 PM",
+          "court": "Rockwell South Court",
+          "type": "dedicated",
+          "sourceText": "6:00 AM- 9:00 PM Rockwell (W33) - South Court Open Rec - Badminton"
         },
         {
           "time": "6:00 AM - 6:00 PM",
@@ -46,16 +46,16 @@
       "date": "2026-08-19",
       "sessions": [
         {
-          "time": "6:00 AM - 5:30 PM",
-          "court": "Rockwell North Court",
-          "type": "dedicated",
-          "sourceText": "6:00 AM- 5:30 PM Rockwell (W33) - North Court Open Rec - Badminton"
-        },
-        {
           "time": "6:00 AM - 9:00 PM",
           "court": "du Pont Court 1",
           "type": "dedicated",
           "sourceText": "6:00 AM- 9:00 PM du Pont (W31/32) - Du Pont Court 1 Open Rec - Badminton"
+        },
+        {
+          "time": "6:00 AM - 5:30 PM",
+          "court": "Rockwell North Court",
+          "type": "dedicated",
+          "sourceText": "6:00 AM- 5:30 PM Rockwell (W33) - North Court Open Rec - Badminton"
         },
         {
           "time": "6:00 AM - 5:30 PM",
@@ -93,12 +93,6 @@
       "sessions": [
         {
           "time": "6:00 AM - 9:00 PM",
-          "court": "Rockwell South Court",
-          "type": "shared",
-          "sourceText": "6:00 AM- 9:00 PM Rockwell (W33) - South Court Open Rec"
-        },
-        {
-          "time": "6:00 AM - 9:00 PM",
           "court": "du Pont Court 1",
           "type": "dedicated",
           "sourceText": "6:00 AM- 9:00 PM du Pont (W31/32) - Du Pont Court 1 Open Rec - Badminton"
@@ -108,6 +102,12 @@
           "court": "Rockwell North Court",
           "type": "dedicated",
           "sourceText": "6:00 AM- 6:00 PM Rockwell (W33) - North Court Open Rec - Badminton"
+        },
+        {
+          "time": "6:00 AM - 9:00 PM",
+          "court": "Rockwell South Court",
+          "type": "shared",
+          "sourceText": "6:00 AM- 9:00 PM Rockwell (W33) - South Court Open Rec"
         }
       ]
     },
