@@ -1,6 +1,6 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-08-23T14:53:18.831Z",
+  "generatedAt": "2026-08-23T15:31:02.791Z",
   "schedule": [
     {
       "date": "2026-08-23",
@@ -12,7 +12,7 @@
           "sourceText": "Z Center competition-pool Open Rec Swim"
         },
         {
-          "time": "1:15 PM - 9 PM",
+          "time": "1:15 PM - 5 PM",
           "court": "competition-pool",
           "type": "open",
           "sourceText": "Z Center competition-pool Open Rec Swim"
