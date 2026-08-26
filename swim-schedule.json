@@ -1,6 +1,6 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-08-26T14:06:52.469Z",
+  "generatedAt": "2026-08-26T16:25:05.538Z",
   "schedule": [
     {
       "date": "2026-08-26",
@@ -42,7 +42,7 @@
           "sourceText": "Z Center dive-well-pool Open Rec Swim"
         },
         {
-          "time": "6 AM - 9 PM",
+          "time": "6 AM - 7:30 PM",
           "court": "Z Center Teaching Pool",
           "type": "open",
           "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
