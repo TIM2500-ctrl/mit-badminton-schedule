@@ -1,54 +1,7 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-08-28T01:05:46.130Z",
+  "generatedAt": "2026-08-28T12:41:57.951Z",
   "schedule": [
-    {
-      "date": "2026-08-27",
-      "sessions": [
-        {
-          "time": "6 AM - 9 PM",
-          "court": "Alumni Lap Pool",
-          "type": "open",
-          "sourceText": "Alumni/Wang Center Alumni Lap Pool Open Rec Swim"
-        },
-        {
-          "time": "6 AM - 7 PM",
-          "court": "Alumni Teaching Pool",
-          "type": "open",
-          "sourceText": "Alumni/Wang Center Alumni Teaching Pool Open Rec Swim"
-        },
-        {
-          "time": "6 AM - 8:30 AM",
-          "court": "competition-pool",
-          "type": "open",
-          "sourceText": "Z Center competition-pool Open Rec Swim"
-        },
-        {
-          "time": "12:30 PM - 9 PM",
-          "court": "competition-pool",
-          "type": "open",
-          "sourceText": "Z Center competition-pool Open Rec Swim"
-        },
-        {
-          "time": "6 AM - 12:30 PM",
-          "court": "dive-well-pool",
-          "type": "open",
-          "sourceText": "Z Center dive-well-pool Open Rec Swim"
-        },
-        {
-          "time": "3 PM - 9 PM",
-          "court": "dive-well-pool",
-          "type": "open",
-          "sourceText": "Z Center dive-well-pool Open Rec Swim"
-        },
-        {
-          "time": "6 AM - 9 PM",
-          "court": "Z Center Teaching Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
-        }
-      ]
-    },
     {
       "date": "2026-08-28",
       "sessions": [
@@ -348,6 +301,53 @@
         },
         {
           "time": "6 AM - 8:30 PM",
+          "court": "Z Center Teaching Pool",
+          "type": "open",
+          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "sessions": [
+        {
+          "time": "6 AM - 9 PM",
+          "court": "Alumni Lap Pool",
+          "type": "open",
+          "sourceText": "Alumni/Wang Center Alumni Lap Pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 9 PM",
+          "court": "Alumni Teaching Pool",
+          "type": "open",
+          "sourceText": "Alumni/Wang Center Alumni Teaching Pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 6:30 AM",
+          "court": "competition-pool",
+          "type": "open",
+          "sourceText": "Z Center competition-pool Open Rec Swim"
+        },
+        {
+          "time": "10:15 AM - 11 PM",
+          "court": "competition-pool",
+          "type": "open",
+          "sourceText": "Z Center competition-pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 10:30 AM",
+          "court": "dive-well-pool",
+          "type": "open",
+          "sourceText": "Z Center dive-well-pool Open Rec Swim"
+        },
+        {
+          "time": "3 PM - 9 PM",
+          "court": "dive-well-pool",
+          "type": "open",
+          "sourceText": "Z Center dive-well-pool Open Rec Swim"
+        },
+        {
+          "time": "6 AM - 9 PM",
           "court": "Z Center Teaching Pool",
           "type": "open",
           "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
