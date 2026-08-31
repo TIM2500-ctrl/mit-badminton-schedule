@@ -1,6 +1,6 @@
 {
   "source": "https://east.mymazevo.com/calendar?code=RXphMEplcUJrNXhtelI0WitsVXJMK1Q5YmpWaTlJQkprZmYwVVhsOW94cm92aDJGcWNFYklMUzNtZ1h5Qmg2UnMwS2tCU0dBa1ZlMEZ0azNmbHptdUdYbGgvZW90MXExVWR2dXVJN1ovK3BoQm9uR0pndkpuMmU1bnp1bm5CcmM",
-  "generatedAt": "2026-08-30T22:09:23.086Z",
+  "generatedAt": "2026-08-31T00:39:17.610Z",
   "schedule": [
     {
       "date": "2026-08-30",
@@ -74,16 +74,16 @@
           "sourceText": "6:00 AM- 11:00 PM du Pont (W31/32) - Du Pont Court 1 Open Rec - Badminton"
         },
         {
-          "time": "1:00 PM - 6:00 PM",
-          "court": "Rockwell South Court",
-          "type": "shared",
-          "sourceText": "1:00 PM- 6:00 PM Rockwell (W33) - South Court Open Rec"
-        },
-        {
           "time": "1:00 PM - 7:00 PM",
           "court": "Rockwell North Court",
           "type": "dedicated",
           "sourceText": "1:00 PM- 7:00 PM Rockwell (W33) - North Court Open Rec - Badminton"
+        },
+        {
+          "time": "1:00 PM - 6:00 PM",
+          "court": "Rockwell South Court",
+          "type": "shared",
+          "sourceText": "1:00 PM- 6:00 PM Rockwell (W33) - South Court Open Rec"
         }
       ]
     },
