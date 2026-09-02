@@ -11,6 +11,8 @@ const poolSources = [
     name: "Z Center",
     url: "https://www.mitrecsports.com/pool-schedule-z/",
     pools: {
+      "competition-pool": "Z Center Competition Pool",
+      "dive-well-pool": "Z Center Dive Well",
       "long-pool": "Z Center Long Course",
       "teaching-pool": "Z Center Teaching Pool",
     },
