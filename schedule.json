@@ -1,24 +1,7 @@
 {
   "source": "https://east.mymazevo.com/calendar?code=RXphMEplcUJrNXhtelI0WitsVXJMK1Q5YmpWaTlJQkprZmYwVVhsOW94cm92aDJGcWNFYklMUzNtZ1h5Qmg2UnMwS2tCU0dBa1ZlMEZ0azNmbHptdUdYbGgvZW90MXExVWR2dXVJN1ovK3BoQm9uR0pndkpuMmU1bnp1bm5CcmM",
-  "generatedAt": "2026-10-27T00:44:44.954Z",
+  "generatedAt": "2026-10-27T05:41:11.522Z",
   "schedule": [
-    {
-      "date": "2026-10-26",
-      "sessions": [
-        {
-          "time": "6:00 AM - 11:00 AM",
-          "court": "du Pont Court 2",
-          "type": "dedicated",
-          "sourceText": "6:00 AM- 11:00 AM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
-        },
-        {
-          "time": "7:30 PM - 11:00 PM",
-          "court": "du Pont Court 2",
-          "type": "dedicated",
-          "sourceText": "7:30 PM- 11:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
-        }
-      ]
-    },
     {
       "date": "2026-10-27",
       "sessions": [
@@ -123,6 +106,23 @@
           "court": "du Pont Court 2",
           "type": "dedicated",
           "sourceText": "6:00 AM- 7:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
+        },
+        {
+          "time": "7:30 PM - 11:00 PM",
+          "court": "du Pont Court 2",
+          "type": "dedicated",
+          "sourceText": "7:30 PM- 11:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "sessions": [
+        {
+          "time": "6:00 AM - 4:00 PM",
+          "court": "du Pont Court 2",
+          "type": "dedicated",
+          "sourceText": "6:00 AM- 4:00 PM du Pont (W31/32) - Du Pont Court 2 Open Rec - Badminton"
         },
         {
           "time": "7:30 PM - 11:00 PM",
