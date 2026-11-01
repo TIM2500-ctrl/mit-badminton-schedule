@@ -1,19 +1,8 @@
 {
   "source": "https://www.bu.edu/fitrec/visit-us/hours/",
-  "generatedAt": "2026-10-31T21:23:35.420Z",
+  "generatedAt": "2026-11-01T06:44:30.652Z",
   "effectiveRange": "September 02, 2026 - December 10, 2026",
   "schedule": [
-    {
-      "date": "2026-10-31",
-      "sessions": [
-        {
-          "time": "8:30 AM - 12 PM",
-          "court": "BU FitRec 3-Court Gym",
-          "type": "dedicated",
-          "sourceText": "Saturday 8:30 AM - 12 PM Open Rec Badminton"
-        }
-      ]
-    },
     {
       "date": "2026-11-01",
       "sessions": [
@@ -55,6 +44,17 @@
           "court": "BU FitRec 3-Court Gym",
           "type": "dedicated",
           "sourceText": "Saturday 8:30 AM - 12 PM Open Rec Badminton"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "sessions": [
+        {
+          "time": "8:30 AM - 12 PM",
+          "court": "BU FitRec 3-Court Gym",
+          "type": "dedicated",
+          "sourceText": "Sunday 8:30 AM - 12 PM Open Rec Badminton"
         }
       ]
     }
