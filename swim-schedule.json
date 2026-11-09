@@ -1,36 +1,7 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-11-08T23:57:48.331Z",
+  "generatedAt": "2026-11-09T05:59:53.431Z",
   "schedule": [
-    {
-      "date": "2026-11-08",
-      "sessions": [
-        {
-          "time": "9 AM - 1 PM",
-          "court": "Z Center Competition Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Competition Pool Open Rec Swim"
-        },
-        {
-          "time": "5:15 PM - 11 PM",
-          "court": "Z Center Competition Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Competition Pool Open Rec Swim"
-        },
-        {
-          "time": "2:30 PM - 9 PM",
-          "court": "Z Center Teaching Pool",
-          "type": "open",
-          "sourceText": "Z Center Z Center Teaching Pool Open Rec Swim"
-        },
-        {
-          "time": "10:30 AM - 5:30 PM",
-          "court": "Z Center Dive Well",
-          "type": "open",
-          "sourceText": "Z Center Z Center Dive Well Open Rec Swim"
-        }
-      ]
-    },
     {
       "date": "2026-11-09",
       "sessions": [
