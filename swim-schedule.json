@@ -1,6 +1,6 @@
 {
   "source": "https://www.mitrecsports.com/pool-schedule-z/?week=1 | https://www.mitrecsports.com/pool-schedule-z/?week=2 | https://www.mitrecsports.com/pool-schedule-aw/?week=1 | https://www.mitrecsports.com/pool-schedule-aw/?week=2",
-  "generatedAt": "2026-11-10T07:27:32.215Z",
+  "generatedAt": "2026-11-10T15:44:59.151Z",
   "schedule": [
     {
       "date": "2026-11-10",
@@ -264,13 +264,7 @@
           "sourceText": "Alumni/Wang Center Alumni Lap Pool Open Rec Swim"
         },
         {
-          "time": "6 AM - 10 AM",
-          "court": "Alumni Teaching Pool",
-          "type": "open",
-          "sourceText": "Alumni/Wang Center Alumni Teaching Pool Open Rec Swim"
-        },
-        {
-          "time": "12 PM - 5 PM",
+          "time": "6 AM - 5 PM",
           "court": "Alumni Teaching Pool",
           "type": "open",
           "sourceText": "Alumni/Wang Center Alumni Teaching Pool Open Rec Swim"
